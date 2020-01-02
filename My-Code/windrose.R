@@ -144,7 +144,7 @@ plot.windrose <- function(data,
                     paste(spdmax,
                           "-",
                           max(data[[spd]],na.rm = TRUE)))
-    spd.colors <- c(spd.colors, "red")
+    spd.colors <- c(spd.colors, "red") 
   } else{
     spd.breaks <- spdseq
     spd.labels <- paste(c(spdseq[1:n.spd.seq-1]),
