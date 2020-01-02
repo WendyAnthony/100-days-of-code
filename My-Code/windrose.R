@@ -144,7 +144,7 @@ plot.windrose <- function(data,
                     paste(spdmax,
                           "-",
                           max(data[[spd]],na.rm = TRUE)))
-    spd.colors <- c(spd.colors, "red") 
+    spd.colors <- c(spd.colors, "red")
   } else{
     spd.breaks <- spdseq
     spd.labels <- paste(c(spdseq[1:n.spd.seq-1]),
@@ -183,7 +183,6 @@ plot.windrose <- function(data,
   
   # deal with change in ordering introduced somewhere around version 2.2
   if(packageVersion("ggplot2") > "2.2"){    
-    cat("Hadley broke my code\n")
     data$spd.binned = with(data, factor(spd.binned, levels = rev(levels(spd.binned))))
     spd.colors = rev(spd.colors)
   }
@@ -196,7 +195,8 @@ plot.windrose <- function(data,
     scale_x_discrete(drop = FALSE,
                      labels = waiver()) +
     coord_polar(start = -((dirres/2)/360) * 2*pi) +
-    scale_fill_manual(name = "Wind Speed (m/s)", 
+#  scale_fill_manual(name = "Wind Speed (m/s)", 
+    scale_fill_manual(name = "Wind Speed (km/hr)", 
                       values = spd.colors,
                       drop = FALSE) +
     #theme_bw() +
@@ -219,11 +219,8 @@ plot.windrose <- function(data,
 
 p1 <- plot.windrose(data = UVic_df, 
                     spd = spd,
-                    dir = dir) 
+                    dir = dir)
 
 p2 <- plot.windrose(data=UVic_df, spd = spd,
                     dir = dir,
                     spdseq = c(0,3,6,12,20))
-
-
-ggsave("my_windrose.png")
