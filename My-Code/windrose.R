@@ -15,6 +15,11 @@ library("dplyr") # Data manipulation and plotting
 library("naniar") # Checking data completeness
 library("mapview") # Spatial analyses
 
+# set working directory ------------------------
+dir <- "/Users/wendyanthony/Documents/R/Weather"
+setwd(dir)
+getwd()
+
 # https://docs.ropensci.org/weathercan/
 
 # Victoria Int'l A data download
@@ -51,6 +56,12 @@ vic_UVic_gg
 ##########################
 ##########################
 
+names(vic_UVic)
+
+# change direction by multiplying by 10 to 360
+vic_UVic$wind_dir_360 <- vic_UVic$wind_dir * 10
+class(vic_UVic$wind_dir_360)
+
 # https://rpubs.com/mariner610/windrose
 # windrose
 head(vic_UVic)
@@ -72,8 +83,8 @@ Hour <- vic_UVic[, 16]
 Pressure <- vic_UVic[, 20]
 Temp <- vic_UVic[, 24]
 DewTemp <- vic_UVic[, 25]
-dir <- vic_UVic[, 36]
 spd <- vic_UVic[, 34]
+dir <- vic_UVic[, 36]
 
 UVic_df <- data.frame(ID, Month, Hour, spd, dir)
 names(UVic_df)
@@ -82,8 +93,8 @@ str(UVic_df)
 # see data in newly created data.frame
 datatable(UVic_df)
 names(UVic_df)
-dir <- UVic_df[, 5]
 spd <- UVic_df[, 4]
+dir <- UVic_df[, 5]
 
 plot.windrose <- function(data,
                           spd,
@@ -195,7 +206,7 @@ plot.windrose <- function(data,
     scale_x_discrete(drop = FALSE,
                      labels = waiver()) +
     coord_polar(start = -((dirres/2)/360) * 2*pi) +
-#  scale_fill_manual(name = "Wind Speed (m/s)", 
+    #  scale_fill_manual(name = "Wind Speed (m/s)", 
     scale_fill_manual(name = "Wind Speed (km/hr)", 
                       values = spd.colors,
                       drop = FALSE) +
@@ -220,7 +231,15 @@ plot.windrose <- function(data,
 p1 <- plot.windrose(data = UVic_df, 
                     spd = spd,
                     dir = dir)
-
 p2 <- plot.windrose(data=UVic_df, spd = spd,
                     dir = dir,
                     spdseq = c(0,3,6,12,20))
+
+p1 <- plot.windrose(data = UVic_df, 
+                    spd = spd,
+                    dir = dir)
+ggsave("UVic-2019-windrose-1.png")
+p2 <- plot.windrose(data=UVic_df, spd = spd,
+                    dir = dir,
+                    spdseq = c(0,3,6,12,20))
+ggsave("UVic-2019-windrose-2.png")
