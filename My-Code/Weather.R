@@ -1,20 +1,33 @@
 # https://ropensci.org/blog/2018/03/06/weathercan/
 
 
-install.packages("weathercan")
-install.packages("lutz")
+#install.packages("weathercan")
+#install.packages("lutz")
+#install.packages("naniar")
+# package ‘feedr’ is not available (for R version 3.6.1)
+# install.packages("feedr")
+# library(feedr) # Access to data containing feeder visits by birds
+
+
 library("weathercan")
-library("sf") # needed for station timezones
+library("sf") # needed for station timezones; # Spatial analyses
 library("lutz")
 library("tidyverse") # needed for filter
-library("ggplot2") # to plot
+library("ggplot2") # Data manipulation and plotting
 library("DT") # to create datatable
 library("RColorBrewer")
+library("dplyr") # Data manipulation and plotting
+library("naniar") # Checking data completeness
+library("mapview") # Spatial analyses
+
+# set working directory ------------------------
+# dir <- "/Users/wendyanthony/Documents/R/Weather"
+# setwd(dir)
+# getwd()
 
 head(stations)
 glimpse(stations)
 stations_search("Victoria", interval = "hour")
-
 
 stations <- stations_dl()
 Victoria_stn <- stations_search("Victoria")
@@ -24,8 +37,7 @@ View(bc_stn)
 
 Victoria_intl_a_stn <- stations_search("VICTORIA INT'L A")
 
-
-
+# Manitoba weather station data
 mb <- filter(stations, 
              prov == "MB",
              interval == "day",
@@ -37,6 +49,7 @@ mb_weather_all <- weather_dl(station_ids = mb$station_id,
                              start = "2018-01-01", 
                              interval = "day", quiet = TRUE)
 
+# BC weather station data 
 bc <- filter(stations, 
              prov == "BC",
              interval == "day",
@@ -44,6 +57,7 @@ bc <- filter(stations,
   select(-prov, -climate_id, -WMO_id, -TC_id)
 bc
 
+# BC weather station weather data 
 bc_weather_all <- weather_dl(station_ids = bc$station_id, 
                              start = "2019-01-01", 
                              interval = "day", quiet = TRUE)
@@ -52,7 +66,6 @@ bc_weather_all
 # which victoria stations have climate norms?
 Vic_stn_norm <- stations_search("VICTORIA", normals_only = TRUE)
 Vic_stn_norm
-
 
 # https://docs.ropensci.org/weathercan/
 
@@ -87,51 +100,15 @@ vic_UVic_gg <- ggplot(data = vic_UVic, aes(x = time, y = wind_dir, colour = stat
   geom_line()
 vic_UVic_gg
 
+##########################
+# try a windrose        # 
+##########################
 
-##########################
-# try a windrose?        # 
-##########################
-# https://ggplot2.tidyverse.org/reference/coord_polar.html
+names(vic_UVic)
 
-##########################
-install.packages("ggplot2movies")
-library("ggplot2movies")
-# Windrose + doughnut plot using MOVIES
-if (require("ggplot2movies")) {
-  movies$rrating <- cut_interval(movies$rating, length = 1)
-  movies$budgetq <- cut_number(movies$budget, 4)
-  
-  doh <- ggplot(movies, aes(x = rrating, fill = budgetq))
-  
-  # Wind rose
-  doh + geom_bar(width = 1) + coord_polar()
-  # Race track plot
-  doh + geom_bar(width = 0.9, position = "fill") + coord_polar(theta = "y")
-}
-
-##########################
-# Using weather ?
-##########################
+# change direction by multiplying by 10 to 360
 vic_UVic$wind_dir_360 <- vic_UVic$wind_dir * 10
 class(vic_UVic$wind_dir_360)
-class(vic_UVic)
-str(vic_UVic)
-vic_UVic
-
-### ??????
-vic_UVic_wr <- if (require("ggplot2movies")) {
-  vic_UVic$wind_dir_360_int <- cut_interval(vic_UVic$wind_dir_360, length = 1)
-
-  doh <- ggplot(vic_UVic, aes(x = wind_spd, fill = wind_dir_360_int))
-  
-  # Wind rose
-  doh + geom_bar(width = 1) + coord_polar()
-  # Race track plot
-  doh + geom_bar(width = 0.9, position = "fill") + coord_polar(theta = "y")
-}
-vic_UVic_wr
-##########################
-##########################
 
 # https://rpubs.com/mariner610/windrose
 # windrose
@@ -146,6 +123,7 @@ ncol(vic_UVic)
 
 names(vic_UVic)
 
+# create variables for columns, used to create a dataframe
 ID <- vic_UVic[, 2]
 Year <- vic_UVic[, 13]
 Month <- vic_UVic[, 14]
@@ -154,15 +132,19 @@ Hour <- vic_UVic[, 16]
 Pressure <- vic_UVic[, 20]
 Temp <- vic_UVic[, 24]
 DewTemp <- vic_UVic[, 25]
-dir <- vic_UVic[, 36]
 spd <- vic_UVic[, 34]
+dir <- vic_UVic[, 36]
 
+# create a dataframe using column variables
 UVic_df <- data.frame(ID, Month, Hour, spd, dir)
 names(UVic_df)
 str(UVic_df)
 
 # see data in newly created data.frame
 datatable(UVic_df)
+names(UVic_df)
+spd <- UVic_df[, 4]
+dir <- UVic_df[, 5]
 
 plot.windrose <- function(data,
                           spd,
@@ -175,7 +157,6 @@ plot.windrose <- function(data,
                           palette = "YlGnBu",
                           countmax = NA,
                           debug = 0){
-  
   
   # Look to see what data was passed in to the function
   if (is.numeric(spd) & is.numeric(dir)){
@@ -211,7 +192,7 @@ plot.windrose <- function(data,
   spd.colors <- colorRampPalette(brewer.pal(min(max(3,
                                                     n.colors.in.range),
                                                 min(9,
-                                                    n.colors.in.range)),                                               
+                                                    n.colors.in.range)),              
                                             palette))(n.colors.in.range)
   
   if (max(data[[spd]],na.rm = TRUE) > spdmax){    
@@ -223,7 +204,7 @@ plot.windrose <- function(data,
                     paste(spdmax,
                           "-",
                           max(data[[spd]],na.rm = TRUE)))
-    spd.colors <- c(spd.colors, "grey50")
+    spd.colors <- c(spd.colors, "red")
   } else{
     spd.breaks <- spdseq
     spd.labels <- paste(c(spdseq[1:n.spd.seq-1]),
@@ -262,7 +243,7 @@ plot.windrose <- function(data,
   
   # deal with change in ordering introduced somewhere around version 2.2
   if(packageVersion("ggplot2") > "2.2"){    
-    cat("Hadley broke my code\n")
+    #cat("Hadley broke my code\n")
     data$spd.binned = with(data, factor(spd.binned, levels = rev(levels(spd.binned))))
     spd.colors = rev(spd.colors)
   }
@@ -299,9 +280,18 @@ plot.windrose <- function(data,
 p1 <- plot.windrose(data = UVic_df, 
                     spd = spd,
                     dir = dir)
-# Error in data[[spd]] : object of type 'closure' is not subsettable
-
 
 p2 <- plot.windrose(data=UVic_df, spd = spd,
                     dir = dir,
                     spdseq = c(0,3,6,12,20))
+
+# save plots as png files to 
+p1 <- plot.windrose(data = UVic_df, 
+                    spd = spd,
+                    dir = dir)
+ggsave("UVic-2019-windrose-1.png")
+
+p2 <- plot.windrose(data=UVic_df, spd = spd,
+                    dir = dir,
+                    spdseq = c(0,3,6,12,20))
+ggsave("UVic-2019-windrose-2.png")

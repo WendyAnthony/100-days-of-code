@@ -16,9 +16,9 @@ library("naniar") # Checking data completeness
 library("mapview") # Spatial analyses
 
 # set working directory ------------------------
-dir <- "/Users/wendyanthony/Documents/R/Weather"
-setwd(dir)
-getwd()
+# dir <- "/Users/wendyanthony/Documents/R/Weather"
+# setwd(dir)
+# getwd()
 
 # https://docs.ropensci.org/weathercan/
 
