@@ -90,7 +90,7 @@ plot.windrose <- function(data,
                           dir,
                           spdres = 2,
                           dirres = 30,
-                          spdmin = 2,
+                          spdmin = 0,
                           spdmax = 20,
                           spdseq = NULL,
                           palette = "YlGnBu",
@@ -219,10 +219,11 @@ plot.windrose <- function(data,
 
 p1 <- plot.windrose(data = UVic_df, 
                     spd = spd,
-                    dir = dir)
-# Error in data[[spd]] : object of type 'closure' is not subsettable
-
+                    dir = dir) 
 
 p2 <- plot.windrose(data=UVic_df, spd = spd,
                     dir = dir,
                     spdseq = c(0,3,6,12,20))
+
+
+ggsave("my_windrose.png")
