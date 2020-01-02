@@ -8,3 +8,5 @@ The log of my #100DaysOfCode challenge. Started on 2020-01-02.
 Started a Weather App. Worked on the draft layout of the app, struggled with OpenWeather API http://www.example.com
 
 ### R1D2
+Reworked Shiny App, creating normalized value columns for comparing polygons (variable / population)  
+https://wendyanthony.shinyapps.io/VicCensusApp/
