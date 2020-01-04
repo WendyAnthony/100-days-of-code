@@ -27,12 +27,8 @@ https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
 **Link to work:** http://people.geog.uvic.ca/wanthony/website/index.html 
 
 ***  
-<br><br />
-
-
-
-
-
+<br /><br />
+***
 
 ## Wish-List
 **Make UVic website responsive & with more up-to-date styling**  
