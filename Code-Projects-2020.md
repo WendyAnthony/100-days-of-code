@@ -22,4 +22,4 @@ http://people.geog.uvic.ca/wanthony/website/index.html
 
 
 ## Wish-List
-### 
+### Make UVic website responsive & with more up-to-date styling
