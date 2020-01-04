@@ -34,10 +34,9 @@
 ***  
 ### R1D3 2020-01-04
 **Today's Progress**: 
-<ul>
-  <li>Continued work on UVic website</li>
-  <li>Learning more about md styling</li>
-</ul>
+
+- Continued work on UVic website
+- Learning more about md styling
 
 
 **Thoughts:** 
@@ -49,17 +48,12 @@
 ***
 
 ## Wish-List
-<ul>
-  <li>Make UVic website responsive & with more up-to-date styling</li>
-  <li>Use eBird data</li>
-  <li>Use iNaturalist data</li>  
-  <li>use historical weather data</li>
-  <li>Shiny - add different choices</li>  
-</ul>  
 
+- Make UVic website responsive & with more up-to-date styling
+- Use eBird data
+- Use iNaturalist data
+- use historical weather data
+- Shiny - add different choices
+- 
 
-<ul>
-  <li></li>
-  <li></li>  
-</ul>
 
