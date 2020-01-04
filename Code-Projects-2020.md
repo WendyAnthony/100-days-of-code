@@ -30,7 +30,12 @@ https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
 
 ***  
 ### R1D3 2020-01-04
-**Today's Progress**: Continued work on UVic website
+**Today's Progress**: 
+<ul>
+  <li>Continued work on UVic website</li>
+  <li>Learning more about md styling</li>
+</ul>
+
 
 **Thoughts:** 
 
