@@ -4,7 +4,7 @@
 [My Code](https://github.com/WendyAnthony/100-days-of-code/tree/master/My-Code)
 
 
-##### Table of Contents  <a name="TOC"/>
+## Table of Contents  <a name="TOC"/>
 [R1D4 2020-01-04](#R1D4)  
 [R1D3 2020-01-03](#R1D3)  
 [R1D2 2020-01-02](#R1D2)  
