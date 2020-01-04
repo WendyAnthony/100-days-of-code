@@ -19,10 +19,8 @@
 **Thoughts:** 
 
 **Link to work:** 
-<ul>
-  <li>https://wendyanthony.shinyapps.io/VicCensusApp/</li>
-  <li>https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R</li>  
-</ul>
+* https://wendyanthony.shinyapps.io/VicCensusApp/
+* https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
 
 ***  
 
