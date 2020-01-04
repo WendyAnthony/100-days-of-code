@@ -3,6 +3,14 @@
 **The log of my #100DaysOfCode challenge. Started on 2020-01-01**  
 [My Code](https://github.com/WendyAnthony/100-days-of-code/tree/master/My-Code)
 
+
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="headers"/>
+## Headers
+
 ***  
 ***
 ## R1D3 2020-01-04
