@@ -3,15 +3,17 @@
 **The log of my #100DaysOfCode challenge. Started on 2020-01-01**  
 [My Code](https://github.com/WendyAnthony/100-days-of-code/tree/master/My-Code)
 
-
+***
 ## Table of Contents  <a name="TOC"/>
+[Week I](#week1)
 [R1D4 2020-01-04](#R1D4)  
 [R1D3 2020-01-03](#R1D3)  
 [R1D2 2020-01-02](#R1D2)  
 [R1D1 2020-01-01](#R1D1)  
 [Wishist](#wishlist)
 
-***  
+***
+# Week I <a name="week1"/>
 ***
 ## R1D3 2020-01-04 <a name="R1D4"/>
 **Today's Progress**: 
