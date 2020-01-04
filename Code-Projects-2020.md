@@ -22,11 +22,10 @@
   - e.g. Table of Contents, list items
 - trying ```eBird auk``` [auk](https://cran.r-project.org/web/packages/auk/vignettes/auk.html) package
 
-
 **Thoughts:** 
 - using examples from packages work fine (e.g auk), but when trying to import real data, not so much ...
 
-**Link to work:** 
+**Links to code work:** 
 
 [TOC](#TOC)
 ***
@@ -36,7 +35,7 @@
 
 **Thoughts:** Continued work with weather data to better understand how to process it
 
-**Link to work:** http://people.geog.uvic.ca/wanthony/website/index.html 
+**Links to code work:**  http://people.geog.uvic.ca/wanthony/website/index.html 
 
 [TOC](#TOC)
 ***
@@ -48,7 +47,7 @@
 
 **Thoughts:** 
 
-**Link to work:** 
+**Links to code work:**  
 1. https://wendyanthony.shinyapps.io/VicCensusApp/
 2. https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
 
@@ -56,7 +55,9 @@
 ***
 
 ## R1D1 2020-01-01 <a name="R1D1"/>
-**Today's Progress**: Started a Weather App. Worked on the draft layout of the app, struggled with ```OpenWeather API```   **Thoughts:** Coding takes patience and lots of trial-&-errors, then EUREKA!!
+**Today's Progress**: Started a Weather App. Worked on the draft layout of the app, struggled with ```OpenWeather API```  
+
+**Thoughts:** Coding takes patience and lots of trial-&-errors, then EUREKA!!
 
 [TOC](#TOC)
 <br />
