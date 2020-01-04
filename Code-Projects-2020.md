@@ -15,10 +15,11 @@
 ***
 # Week I <a name="week1"/>
 ***
-## R1D3 2020-01-04 <a name="R1D4"/>
+## R1D4 2020-01-04 <a name="R1D4"/>
 **Today's Progress**: 
 - Continued work on UVic website
-- Learning more about md styling e.g. Table of Contents, list items
+- Learning more about md styling 
+  - e.g. Table of Contents, list items
 - trying eBird auk package
 
 
