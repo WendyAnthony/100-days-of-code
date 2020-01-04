@@ -45,13 +45,8 @@
 
 ***
 
-**Table of Contents**
+**Task List**
 
-[TOCM]
-
-[TOC]
-###R1D1 2020-01-01
-###R1D2 2020-01-02
 
 ***  
 <br /><br />
@@ -59,11 +54,11 @@
 
 ## Wish-List
 
-- Make UVic website responsive & with more up-to-date styling
-- Use eBird data
-- Use iNaturalist data
-- use historical weather data
-- Shiny - add different choices
+- [x] Make UVic website responsive & with more up-to-date styling
+- [] Use eBird data
+- [] Use iNaturalist data
+- [] use historical weather data
+- [] Shiny - add different choices
 - 
 
 
