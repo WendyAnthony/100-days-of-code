@@ -10,6 +10,7 @@
 
 **Thoughts:** Coding takes patience and lots of trial-&-errors, then EUREKA!!
 ***  
+
 ### R1D2 2020-01-02
 **Today's Progress**: Reworked Shiny App for UVic Census data, creating normalized value columns for comparing polygons (variable / #households)  
 Figured out how to make windrose with weather data  
@@ -19,12 +20,21 @@ Figured out how to make windrose with weather data
 **Link to work:** https://wendyanthony.shinyapps.io/VicCensusApp/  
 https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
 ***  
+
 ### R1D3 2020-01-03
 **Today's Progress**: Fixed absolute URLs in UVic student website (over 2400 files)
 
 **Thoughts:** Continued work with weather data to better understand how to process it
 
 **Link to work:** http://people.geog.uvic.ca/wanthony/website/index.html 
+
+***  
+### R1D3 2020-01-04
+**Today's Progress**: Continued work on UVic website
+
+**Thoughts:** 
+
+**Link to work:** 
 
 ***  
 <br /><br />
