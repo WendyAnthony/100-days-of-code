@@ -4,6 +4,7 @@
 [My Code](https://github.com/WendyAnthony/100-days-of-code/tree/master/My-Code)
 
 ***  
+***
 ## R1D3 2020-01-04
 **Today's Progress**: 
 
@@ -44,7 +45,7 @@
 
 **Thoughts:** Coding takes patience and lots of trial-&-errors, then EUREKA!!
 
-`***  
+***  
 
 
 ***  
