@@ -16,9 +16,10 @@ https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
 ### R1D3 2020-01-03
 #### Fixed absolute URLs in UVic student website (over 2400 files)
 http://people.geog.uvic.ca/wanthony/website/index.html
+#### Continued work with weather data
 
 
 
 
-### Wish-List
-#### 
+## Wish-List
+### 
