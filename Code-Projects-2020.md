@@ -10,7 +10,7 @@
   - [R1D3 2020-01-03](#R1D3)  
   - [R1D2 2020-01-02](#R1D2)  
   - [R1D1 2020-01-01](#R1D1)  
-- [Wishlist](#wishlist)
+- **[Wishlist](#wishlist)**
 
 ***
 # Week I <a name="week1"/>
