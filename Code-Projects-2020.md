@@ -50,9 +50,9 @@ https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
 
 ## Wish-List
 <ul>
-  <li>**Make UVic website responsive & with more up-to-date styling**</li>
-  <li>**Use eBird data**</li>
-  <li>**Use iNaturalist data**</li>  
-  <li>**use historical weather data**</li>
-  <li>**Shiny - add different choices**</li>  
+  <li>Make UVic website responsive & with more up-to-date styling</li>
+  <li>Use eBird data</li>
+  <li>Use iNaturalist data</li>  
+  <li>use historical weather data</li>
+  <li>Shiny - add different choices</li>  
 </ul>  
