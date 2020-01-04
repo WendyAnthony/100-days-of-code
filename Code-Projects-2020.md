@@ -53,12 +53,12 @@
 ***
 
 ## Wish-List
-
+- [x] Create log of coding work done as progess
 - [x] Make UVic website responsive & with more up-to-date styling
-- [] Use eBird data
-- [] Use iNaturalist data
-- [] use historical weather data
-- [] Shiny - add different choices
+- Use eBird data
+- Use iNaturalist data
+- use historical weather data
+- Shiny - add different choices
 - 
 
 
