@@ -13,7 +13,7 @@
 
 
 **Thoughts:** 
-- using examples from packages work fine, but when trying to import real data, not so much ...
+- using examples from packages work fine (e.g auk), but when trying to import real data, not so much ...
 
 **Link to work:** 
 
