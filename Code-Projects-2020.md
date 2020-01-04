@@ -7,12 +7,13 @@
 ***
 ## R1D3 2020-01-04
 **Today's Progress**: 
-
 - Continued work on UVic website
 - Learning more about md styling
+- trying eBird auk package
 
 
 **Thoughts:** 
+- using examples from packages work fine, but when trying to import real data, not so much ...
 
 **Link to work:** 
 
