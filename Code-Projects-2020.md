@@ -20,8 +20,12 @@
 
 **Thoughts:** 
 
-**Link to work:** https://wendyanthony.shinyapps.io/VicCensusApp/  
-https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
+**Link to work:** 
+<ul>
+  <li>https://wendyanthony.shinyapps.io/VicCensusApp/</li>
+  <li>https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R</li>  
+</ul>
+
 ***  
 
 ### R1D3 2020-01-03
@@ -56,3 +60,10 @@ https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
   <li>use historical weather data</li>
   <li>Shiny - add different choices</li>  
 </ul>  
+
+
+<ul>
+  <li></li>
+  <li></li>  
+</ul>
+
