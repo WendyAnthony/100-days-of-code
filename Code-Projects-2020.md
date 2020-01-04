@@ -1,6 +1,7 @@
 # #100DaysOfCode Log - Round 1 - Wendy Anthony
 
-The log of my #100DaysOfCode challenge. Started on 2020-01-02.
+**The log of my #100DaysOfCode challenge. Started on 2020-01-01**  
+[My Code](https://github.com/WendyAnthony/100-days-of-code/tree/master/My-Code)
 
 ## Log
 
