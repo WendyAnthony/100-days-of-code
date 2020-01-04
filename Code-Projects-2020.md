@@ -6,20 +6,30 @@
 ## Log
 
 ### R1D1 2020-01-01
-Started a Weather App. Worked on the draft layout of the app, struggled with OpenWeather API  
+**Today's Progress**: Started a Weather App. Worked on the draft layout of the app, struggled with OpenWeather API 
+
+**Thoughts:** Coding takes patience and lots of trial-&-errors, then EUREKA!!
 
 ### R1D2 2020-01-02
-**Reworked Shiny App, creating normalized value columns for comparing polygons (variable / #households)**  
-https://wendyanthony.shinyapps.io/VicCensusApp/  
+**Today's Progress**: Reworked Shiny App for UVic Census data, creating normalized value columns for comparing polygons (variable / #households)  
+Figured out how to make windrose with weather data  
 
-**Figured out how to make windrose with weather data**  
+**Thoughts:** 
+
+**Link to work:** https://wendyanthony.shinyapps.io/VicCensusApp/  
 https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
 
 ### R1D3 2020-01-03
-**Fixed absolute URLs in UVic student website (over 2400 files)**    
-http://people.geog.uvic.ca/wanthony/website/index.html  
+**Today's Progress**: Fixed absolute URLs in UVic student website (over 2400 files)
 
-**Continued work with weather data**  
+**Thoughts:** Continued work with weather data to better understand how to process it
+
+**Link to work:** http://people.geog.uvic.ca/wanthony/website/index.html 
+
+
+
+
+
 
 
 
