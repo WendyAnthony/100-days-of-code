@@ -4,11 +4,13 @@
 [My Code](https://github.com/WendyAnthony/100-days-of-code/tree/master/My-Code)
 
 
-##### Table of Contents  
+##### Table of Contents  <a name="TOC"/>
 [R1D4 2020-01-04](#R1D4)  
 [R1D3 2020-01-03](#R1D3)  
-[R1D2 2020-01-02](#R1D2)
-[R1D1 2020-01-01](#R1D1)
+[R1D2 2020-01-02](#R1D2)  
+[R1D1 2020-01-01](#R1D1)  
+[Wishist](#wishlist)
+
 ***  
 ***
 ## R1D3 2020-01-04 <a name="R1D4"/>
@@ -23,6 +25,7 @@
 
 **Link to work:** 
 
+[TOC](#TOC)
 ***
 
 ## R1D3 2020-01-03 <a name="R1D3"/>
@@ -32,6 +35,7 @@
 
 **Link to work:** http://people.geog.uvic.ca/wanthony/website/index.html 
 
+[TOC](#TOC)
 ***
 
 ## R1D2 2020-01-02 <a name="R1D2"/>
@@ -45,6 +49,7 @@
 1. https://wendyanthony.shinyapps.io/VicCensusApp/
 2. https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
 
+[TOC](#TOC)
 ***
 
 ## R1D1 2020-01-01 <a name="R1D1"/>
@@ -52,6 +57,7 @@
 
 **Thoughts:** Coding takes patience and lots of trial-&-errors, then EUREKA!!
 
+[TOC](#TOC)
 ***  
 
 
@@ -59,7 +65,7 @@
 <br /><br />
 ***
 
-# Wish-List
+# Wish-List <a name="wishlist"/>
 - [x] Create log of coding work done as progress
 - [x] Make UVic website responsive & with more up-to-date styling
 - Use eBird data
@@ -68,4 +74,5 @@
 - Shiny - add different choices
 - 
 
+[TOC](#TOC)
 
