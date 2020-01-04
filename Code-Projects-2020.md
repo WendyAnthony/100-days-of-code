@@ -20,7 +20,7 @@
 - Continued work on UVic website
 - Learning more about .md styling 
   - e.g. Table of Contents, list items
-- trying ```eBird Auk``` [auk](https://cran.r-project.org/web/packages/auk/vignettes/auk.html) package
+- trying ```eBird auk``` [auk](https://cran.r-project.org/web/packages/auk/vignettes/auk.html) package
 
 
 **Thoughts:** 
