@@ -43,7 +43,7 @@
 
 ## R1D2 2020-01-02 <a name="R1D2"/>
 **Today's Progress**: 
-1. [x] Reworked Shiny App for UVic Census data, creating normalized value columns for comparing polygons (variable / #households)
+1. [x] Reworked ```Shiny App``` for UVic Census data, creating normalized value columns for comparing polygons (variable / #households)
 2. [x] Figured out how to make windrose with weather data
 
 **Thoughts:** 
@@ -56,9 +56,7 @@
 ***
 
 ## R1D1 2020-01-01 <a name="R1D1"/>
-**Today's Progress**: Started a Weather App. Worked on the draft layout of the app, struggled with OpenWeather API 
-
-**Thoughts:** Coding takes patience and lots of trial-&-errors, then EUREKA!!
+**Today's Progress**: Started a Weather App. Worked on the draft layout of the app, struggled with ```OpenWeather API```   **Thoughts:** Coding takes patience and lots of trial-&-errors, then EUREKA!!
 
 [TOC](#TOC)
 <br />
