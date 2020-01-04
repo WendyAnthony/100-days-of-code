@@ -5,20 +5,16 @@
 
 
 ##### Table of Contents  
+[R1D4 2020-01-04](#R1D4)  
 [R1D3 2020-01-03](#R1D3)  
-[Emphasis](#emphasis)  
-
-<a name="headers"/>
-## Headers
-## Emphasis
-<a name="emphasis"/>
-
+[R1D2 2020-01-02](#R1D2)
+[R1D1 2020-01-01](#R1D1)
 ***  
 ***
-## R1D3 2020-01-04 <a name="R1D3"/>
+## R1D3 2020-01-04 <a name="R1D4"/>
 **Today's Progress**: 
 - Continued work on UVic website
-- Learning more about md styling
+- Learning more about md styling e.g. Table of Contents, list items
 - trying eBird auk package
 
 
@@ -29,7 +25,7 @@
 
 ***
 
-## R1D3 2020-01-03
+## R1D3 2020-01-03 <a name="R1D3"/>
 **Today's Progress**: Fixed absolute URLs in UVic student website (over 2400 files)
 
 **Thoughts:** Continued work with weather data to better understand how to process it
@@ -38,7 +34,7 @@
 
 ***
 
-## R1D2 2020-01-02
+## R1D2 2020-01-02 <a name="R1D2"/>
 **Today's Progress**: 
 1. [x] Reworked Shiny App for UVic Census data, creating normalized value columns for comparing polygons (variable / #households)
 2. [x] Figured out how to make windrose with weather data
@@ -51,7 +47,7 @@
 
 ***
 
-## R1D1 2020-01-01
+## R1D1 2020-01-01 <a name="R1D1"/>
 **Today's Progress**: Started a Weather App. Worked on the draft layout of the app, struggled with OpenWeather API 
 
 **Thoughts:** Coding takes patience and lots of trial-&-errors, then EUREKA!!
