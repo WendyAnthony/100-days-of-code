@@ -12,8 +12,11 @@
 ***  
 
 ### R1D2 2020-01-02
-**Today's Progress**: Reworked Shiny App for UVic Census data, creating normalized value columns for comparing polygons (variable / #households)  
-Figured out how to make windrose with weather data  
+**Today's Progress**: 
+<ul>
+  <li>Reworked Shiny App for UVic Census data, creating normalized value columns for comparing polygons (variable / #households)</li>
+  <li>Figured out how to make windrose with weather data</li>  
+</ul>
 
 **Thoughts:** 
 
@@ -46,4 +49,10 @@ https://github.com/WendyAnthony/100-days-of-code/blob/master/My-Code/windrose.R
 ***
 
 ## Wish-List
-**Make UVic website responsive & with more up-to-date styling**  
+<ul>
+  <li>**Make UVic website responsive & with more up-to-date styling**</li>
+  <li>**Use eBird data**</li>
+  <li>**Use iNaturalist data**</li>  
+  <li>**use historical weather data**</li>
+  <li>**Shiny - add different choices**</li>  
+</ul>  
