@@ -60,6 +60,7 @@
 **Thoughts:** Coding takes patience and lots of trial-&-errors, then EUREKA!!
 
 [TOC](#TOC)
+<br />
 ***  
 ***
 <br />
