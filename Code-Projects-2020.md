@@ -44,7 +44,7 @@
 ## R1D2 2020-01-02 <a name="R1D2"/>
 **Today's Progress**: 
 1. [x] Reworked ```Shiny App``` for UVic Census data, creating normalized value columns for comparing polygons (variable / #households)
-2. [x] Figured out how to make windrose with weather data
+2. [x] Figured out how to make windrose with weather data  
 
 **Thoughts:** 
 
