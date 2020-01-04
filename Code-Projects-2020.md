@@ -5,7 +5,7 @@
 
 
 ##### Table of Contents  
-[R1D3 2020-01-03](#R1D3 2020-01-03)  
+[R1D3 2020-01-03](#R1D3)  
 [Emphasis](#emphasis)  
 
 <a name="headers"/>
@@ -15,7 +15,7 @@
 
 ***  
 ***
-## R1D3 2020-01-04
+## R1D3 2020-01-04 <a name="R1D3"/>
 **Today's Progress**: 
 - Continued work on UVic website
 - Learning more about md styling
