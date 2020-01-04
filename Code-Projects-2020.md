@@ -62,7 +62,7 @@
 [TOC](#TOC)
 ***  
 ***
-<br /><br />
+<br />
 
 # Wish-List <a name="wishlist"/>
 - [x] Create log of coding work done as progress
