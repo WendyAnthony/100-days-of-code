@@ -6,6 +6,7 @@
 ***
 ## Table of Contents  <a name="TOC"/>
 - **[Week I](#week1)**  
+  - [R1D5 2020-01-05](#R1D4) 
   - [R1D4 2020-01-04](#R1D4)  
   - [R1D3 2020-01-03](#R1D3)  
   - [R1D2 2020-01-02](#R1D2)  
@@ -14,6 +15,16 @@
 
 ***
 # Week I <a name="week1"/>
+***
+## R1D5 2020-01-05 <a name="R1D5"/>
+**Today's Progress**: 
+- trying to get iNaturalist to work in R ```library("rinat")```
+**Thoughts:** 
+- tutorial samples work, but not with projects I'm involved with e.g. BCParks
+
+**Links to code work:** 
+
+[TOC](#TOC)
 ***
 ## R1D4 2020-01-04 <a name="R1D4"/>
 **Today's Progress**: 
