@@ -18,9 +18,10 @@
 ***
 ## R1D5 2020-01-05 <a name="R1D5"/>
 **Today's Progress**: 
-- trying to get iNaturalist to work in R ```library("rinat")```
+- trying to get iNaturalist to work in R ```library("rinat")```  
+
 **Thoughts:** 
-- tutorial samples work, but not with projects I'm involved with e.g. BCParks
+- tutorial samples work, but not with projects I'm involved with e.g. BCParks  
 
 **Links to code work:** 
 
