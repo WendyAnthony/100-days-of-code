@@ -67,7 +67,7 @@
 - [x] Create log of coding work done as progress
 - [x] Make UVic website responsive & with more up-to-date styling
 - [x] Formatting md pages (like this one)
-- [x] become more comfortablel using github
+- [x] become more comfortable using ```github```
 - Use eBird data
 - Use iNaturalist data
 - use historical weather data
