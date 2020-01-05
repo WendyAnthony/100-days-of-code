@@ -15,7 +15,7 @@
 - **[Wishlist](#wishlist)**
 
 ***
-# Week I <a name="week1"/>
+# Week II <a name="weekII"/>
 ***
 ## R1D5 2020-01-05 <a name="R1D5"/>
 **Today's Progress**: 
@@ -27,6 +27,8 @@
 **Links to code work:** 
 
 [TOC](#TOC)
+***
+# Week I <a name="weekI"/>
 ***
 ## R1D4 2020-01-04 <a name="R1D4"/>
 **Today's Progress**: 
