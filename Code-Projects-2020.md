@@ -66,12 +66,12 @@
 # Wish-List <a name="wishlist"/>  
 - [x] Create log of coding work done as progress
 - [x] Make UVic website responsive & with more up-to-date styling
-- [x] Formatting md pages
+- [x] Formatting md pages (like this one)
 - Use eBird data
 - Use iNaturalist data
 - use historical weather data
 - Shiny - add different choices
-- 
+- learn to do more stuff with R [R Resource Links](https://wendyanthony.github.io/R_Stats_Links-io.html)
 
 [TOC](#TOC)
 
