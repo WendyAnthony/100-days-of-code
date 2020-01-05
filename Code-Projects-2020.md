@@ -84,7 +84,7 @@
 - [x] Formatting md pages (like this one)
 - [x] become more comfortable using ```github```
 - Use eBird data
-- Use iNaturalist data
+- Use iNaturalist data [x]
 - use historical weather data
 - Shiny - add different choices
 - learn to do more stuff with R [R Resource Links](https://wendyanthony.github.io/R_Stats_Links-io.html)
