@@ -23,7 +23,9 @@
   - finally got my personal observations to show in R !!!
 
 **Thoughts:** 
-- tutorial samples work, but not with projects I'm involved with e.g. BCParks  
+- tutorial samples work, but not with projects I'm involved with e.g. bc-parks  
+  - bc-parks is an umbrella project with other individual BC Parks Projects
+  - rinat gives an error; I've tried a few suggestions (a common error with rinat) but no luck so far
 
 **Links to code work:** 
 - to extract my personal observations  
