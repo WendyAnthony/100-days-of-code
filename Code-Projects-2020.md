@@ -22,6 +22,7 @@
 - trying to get iNaturalist to work in R ```library("rinat")```  
   - finally got my personal observations to show in R !!!
   - ```get_inat_obs_user("wendy_anthony", maxresults = "3000")```
+  - default is 110 results > I actually have 2200 uploaded observations between Aug 2019 & May 2015
 
 **Thoughts:** 
 - tutorial samples work, but not with projects I'm involved with e.g. BCParks  
