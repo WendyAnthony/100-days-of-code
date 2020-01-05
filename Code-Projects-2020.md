@@ -27,9 +27,8 @@
 
 **Links to code work:** 
 - to extract my personal observations  
-  - ```get_inat_obs_user("wendy_anthony", maxresults = "3000")```  
+  - ```get_inat_obs_user("wendy_anthony", maxresults = "3000")```
   - default is 110 results > I actually have 2200 uploaded observations between Aug 2019 & May 2015
-
 - to Extract just research grade observations  
   - wa_inat_userstats_research <- wa_inat_userstats[which(wa_inat_userstats$quality_grade == "research" ),] 
 
