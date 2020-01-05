@@ -20,11 +20,13 @@
 ## R1D5 2020-01-05 <a name="R1D5"/>
 **Today's Progress**: 
 - trying to get iNaturalist to work in R ```library("rinat")```  
+  - finally got my personal observations to show in R !!!
 
 **Thoughts:** 
 - tutorial samples work, but not with projects I'm involved with e.g. BCParks  
 
 **Links to code work:** 
+- get_inat_obs_user("wendy_anthony", maxresults = "3000")
 
 [TOC](#TOC)
 ***
