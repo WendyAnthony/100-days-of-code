@@ -24,7 +24,12 @@
 
 **Thoughts:** 
 - too bad github didn't build-in some way to simplify organization of repositories, to make them easier to find than a search
-- I had originally set-up a repository for a list of my personal respositories, and 'pinned' to top of repository page
+  - I had originally set-up a repository for a list of my personal respositories, and 'pinned' to top of repository page
+- Transfer forked repository to new organization: 
+  - in Repository, click 'Settings'
+  - in 'Danger Zone' click 'Transfer'
+  - type name of original repository
+  - type or copy/paste name of organization to transfer to
 
 **Links to code work:** 
 - https://github.com/WendyAnthony
