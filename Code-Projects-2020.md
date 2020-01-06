@@ -6,7 +6,8 @@
 ***
 ## Table of Contents  <a name="TOC"/>
 - **[Week II](#weekII)**  
-  - [R1D5 2020-01-05](#R1D5) 
+- [R1D5 2020-01-06](#R1D6)
+- [R1D5 2020-01-05](#R1D5) 
 - **[Week I](#weekI)**    
   - [R1D4 2020-01-04](#R1D4)  
   - [R1D3 2020-01-03](#R1D3)  
@@ -16,6 +17,18 @@
 
 ***
 # Week II <a name="weekII"/>
+***
+## R1D6 2020-01-06 <a name="R1D6"/>
+**Today's Progress**: 
+- learning to organize my forked github repositories by making new 'organizations' and 'transfering ownership' from my main repository (200+ forked repositories) to new forked-organizations
+
+**Thoughts:** 
+- too bad github didn't build-in some way to simplify organization of repositories
+- I had originally set-up a repository for a list of my respositories, and 'pinned' to top of repository page
+
+**Links to code work:** 
+
+[TOC](#TOC)
 ***
 ## R1D5 2020-01-05 <a name="R1D5"/>
 **Today's Progress**: 
