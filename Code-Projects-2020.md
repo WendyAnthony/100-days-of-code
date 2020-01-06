@@ -34,20 +34,20 @@
 **Today's Progress**: 
 - experimenting using highcharts r wrapper ```highcharter```
 - trying to get iNaturalist to work in R ```library("rinat")```  
-  - finally got my personal observations to show in R !!!
+  - finally got my personal iNaturalist observations to show in R !!!
 
 **Thoughts:** 
 - though I've used highcharts code for dataviz, the ```highcharter``` 'wrapper' uses different code styles for same charts
 - tutorial samples work, but not with projects I'm involved with e.g. bc-parks  
   - bc-parks is an umbrella project with other individual BC Parks Projects
-  - rinat gives an error; I've tried a few suggestions (a common error with rinat) but no luck so far
+  - ```rinat``` gives an error; I've tried a few suggestions (a common error with rinat) but no luck so far
 
 **Links to code work:** 
 - to extract my personal observations  
   - ```get_inat_obs_user("wendy_anthony", maxresults = "3000")```
   - default is 110 results > I actually have 2200 uploaded observations between Aug 2019 & May 2015
 - to Extract just research grade observations  
-  - wa_inat_userstats_research <- wa_inat_userstats[which(wa_inat_userstats$quality_grade == "research" ),] 
+  - ```wa_inat_userstats_research <- wa_inat_userstats[which(wa_inat_userstats$quality_grade == "research" ),] ```
 
 [TOC](#TOC)
 ***
@@ -56,12 +56,12 @@
 ## R1D4 2020-01-04 <a name="R1D4"/>
 **Today's Progress**: 
 - Continued work on UVic website
-- Learning more about .md styling 
+- Learning more about ```.md``` styling 
   - e.g. Table of Contents, list items
 - trying ```eBird auk``` [auk](https://cran.r-project.org/web/packages/auk/vignettes/auk.html) package
 
 **Thoughts:** 
-- using examples from packages work fine (e.g auk), but when trying to import real data, not so much ...
+- using examples from packages work fine (e.g ```auk```), but when trying to import real data, not so much ...
 
 **Links to code work:** 
 
@@ -104,7 +104,7 @@
 # Wish-List <a name="wishlist"/>  
 - [x] Create log of coding work done as progress
 - [x] Make UVic website responsive & with more up-to-date styling
-- [x] Formatting md pages (like this one)
+- [x] Formatting ```.md``` pages (like this one)
 - [x] become more comfortable using ```github```
 - Use eBird data
 - Use iNaturalist data
