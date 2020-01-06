@@ -19,10 +19,12 @@
 ***
 ## R1D5 2020-01-05 <a name="R1D5"/>
 **Today's Progress**: 
+- experimenting using highcharts r wrapper ```highcharter```
 - trying to get iNaturalist to work in R ```library("rinat")```  
   - finally got my personal observations to show in R !!!
 
 **Thoughts:** 
+- though I've used highcharts code for dataviz, the ```highcharter``` 'wrapper' uses different code styles for same charts
 - tutorial samples work, but not with projects I'm involved with e.g. bc-parks  
   - bc-parks is an umbrella project with other individual BC Parks Projects
   - rinat gives an error; I've tried a few suggestions (a common error with rinat) but no luck so far
