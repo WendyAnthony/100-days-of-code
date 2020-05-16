@@ -5,8 +5,10 @@
 
 ***
 ## Table of Contents  <a name="TOC"/>
+- **[Week IX of COVID-19 Lockdown](#weekXXV)**  
+- [R1D135 2020-05-14](#R1D135)
 - **[Week II](#weekII)**  
-- [R1D5 2020-01-06](#R1D6)
+- [R1D6 2020-01-06](#R1D6)
 - [R1D5 2020-01-05](#R1D5) 
 - **[Week I](#weekI)**    
   - [R1D4 2020-01-04](#R1D4)  
@@ -15,6 +17,19 @@
   - [R1D1 2020-01-01](#R1D1)  
 - **[Wishlist](#wishlist)**
 
+***
+# Week IX of COVID-19 Lockdown <a name="weekXXV"/>
+***
+## R1D135 2020-05-14 <a name="R1D135"/>
+**Today's Progress**: 
+- tried new-to-me package 'tidycovid19', merging data from 9 different sources, creating familiar charts
+
+**Thoughts:**
+- I hadn't done any coding since finishing my Adv Weather Course, so after taking some time out from moving everything on-line mid-way, writing 2 exams and finishing 3 assignments, I've had just over 3 weeks to take a break before wanting to play with R ... COVID-19 lockdown time starting to phase into different stage seemed like a perfect time to try to make some of the COVID-19 data viz charts I've been seeing on Twitter
+
+**Links to code work:** 
+
+[TOC](#TOC)
 ***
 # Week II <a name="weekII"/>
 ***
